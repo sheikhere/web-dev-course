@@ -1,0 +1,116 @@
+<!--                                    Background Color Gradient                            -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Color Gradient</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="bcg">
+        <h1>
+            Background
+        </h1>
+        <div class="wrapper">
+            <h2>
+                Hy there we applied background image via external css
+            </h2>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit autem iusto neque aperiam. Laboriosam molestias architecto consectetur ipsum at voluptatem. Laudantium, quasi sequi cum distinctio quas velit veniam laborum nobis, doloremque aspernatur omnis corrupti rerum doloribus optio et, eaque facere reiciendis itaque tempora dignissimos veritatis dolores perspiciatis. Ab, ea eos.
+            </p>
+            <br><br>
+        </div>
+    </div>
+    <hr>
+    <div>
+        <h1>
+            Color
+        </h1>
+        <h5>
+            we can apply color in four ways:
+            <ol>
+                <li>Normal</li>
+                <li>HEXA code</li>
+                <li>RGB</li>
+                <li>HSL</li>
+            </ol>
+        </h5>
+        <h2>Normal</h2>
+        <p id="normal">
+            This is the normal way to apply the color, like we use pink orange black<br>
+            color : pink;
+        </p>
+        <h2>HEXA Code</h2>
+        <p id="hexa">
+            This is the hexa code way to apply the color<br>
+            it has three values # ----- ------- --------  <br>
+            redgreenblue<br>
+            it's syntax starts from # and it's range is 00-ff where o to 9 and a to f.<br>
+            color : #396b8e;
+            <br> It also has opacity value represent by alpha it's range is also 0 to 9 and a to f color : #396b8efe.
+
+        </p>
+                <h2>RGB</h2>
+        <p id="rgb">
+            This is the rgb way to apply the color<br>
+            it has three values red green blue #----- ------- --------  <br>
+            redgreenblue<br>
+            it's syntax starts from rgb and it's range is 0 - 255<br>
+            color : rgb(110, 90, 20)        
+            <br> It also has opacity value represent by alpha it's range is 0 to 1 color : rgba(110, 90, 20, 0.998)
+
+        </p>
+
+
+        <h2>HSL</h2>
+        <p id="hsl">
+            This is the hue saturation lightness way to apply the color<br>
+            it has three values hue saturation lightness hsl(----- ------- --------)  <br>
+            it's syntax starts from hsl and where range of hue is 0-360, while range of saturation and lightness is 0-100%<br>
+            color : hsl(110, 90%, 20%)        
+            <br> It also has opacity value represent by alpha it's range is 0 to 1 color : hsla(110, 90%, 20%, 0.904)
+
+        </p>
+        <hr>
+
+        <h1>
+            Gradient
+        </h1>
+        <p> 
+            gradient is the combination of more than one color. It applies with the background property. It is of three types<br>
+            <ol>
+                <li>linear</li>
+                <li>radial</li>
+                <li>conic</li>
+            </ol>
+        </p>
+
+        <h2>linear gradient</h2>
+        <p id="linear">
+            background :linear-gradient(120deg, yellow , orange, pink);<br>
+            background-repeat: no-repeat;<br>
+            background-attachment: scroll;<br>
+
+        </p>
+
+                <h2>radial gradient</h2>
+        <p id="radial">
+            background :radial-gradient(50% 50%, yellow , orange, pink);<br>
+            background-repeat: no-repeat;<br>
+            background-attachment: scroll;<br>
+
+        </p>
+
+
+                <h2>conic gradient</h2>
+        <p id="conic">
+            background :conic-gradient(yellow , orange, pink);<br>
+            background-repeat: no-repeat;<br>
+            background-attachment: scroll
+
+        </p>
+
+    </div>
+</body>
+</html>

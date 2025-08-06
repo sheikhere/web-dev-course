@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positions</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>
+        Positions
+    </h1>
+    <b>Note: </b>For Better experience please zoom inn...ctrl +
+    <div class = "static">
+        <h2 style="color: black;">Static Position</h2>
+        <p>
+        position : static ; <br>
+        This is the static or default position of an element, we cannot apply top left right bottom properties in the static position<br>
+        This is the default position of every element or tag.
+        </p>
+        <div>
+        <span class="box" id="box1">Box1</span>
+        <span class="box" id="box2">Box2</span>
+        <span class="box" id="box3">Box3</span>
+        <span class="box" id="box4">Box4</span>
+        <span class="box" id="box5">Box5</span>
+        </div>
+    </div>
+    <div class="relative">
+        <h2 style="color: black;">Relative Position</h2>
+        <p>
+            position : relative ; <br>
+            In relative position, top left right bottom properties are applied with in the same flow, means with in the Html default layout or normal flow<br>
+            It takes it's same space, do not take space out of the flow.<br>
+            It allows an element to be positioned relative to its normal position within the document flow.
+        </p>
+        <div>
+        <span class="box" id="box1">Box1</span>
+        <span class="box" id="box2">Box2</span>
+        <span class="box" id="box3">Box3</span>
+        <span class="box" id="box4">Box4</span>
+        <span class="box" id="box5">Box5</span>
+        </div>
+    </div>
+
+    <div class="absolute">
+        <h2 style="color: black;">Absolute Position</h2>
+        <p>
+            position : absolute ; <br>
+            In absolute position, top left right bottom properties are applied out of the flow, means not in the Html default layout or normal flow.
+            <br><b><br> Making the position absolute of an element we also have make it's parent element position relative, otherwise it understands whole body is it's body.</b><br><br>
+            It takes the space out of the flow, and other side elements take it's place or space.<br>
+            Removes an element from the normal document flow and positions it relative to its nearest positioned ancestor.
+        </p>
+        <div style="position: relative;">
+        <span class="box" id="box1">Box1</span>
+        <span class="box" id="box2">Box2</span>
+        <span class="box" id="box3">Box3</span>
+        <span class="box" id="box4">Box4</span>
+        <span class="box" id="box5">Box5</span>
+        </div>
+    </div>
+
+        <div class = "fixed">
+        <h2 style="color: black;">Fixed Position</h2>
+        <p> Element will remain fixed in the absolute position or position you given, even when the user scrolls the page it will remains fixed.<br>
+            Fixed is same like absolute but it is fixed on the screen not scrollable.
+        </p>
+        <div style="position: relative;">
+        <span class="box" id="box1">Box1</span>
+        <span class="box" id="box2">Box2</span>
+        <span class="box" id="box3">Fixed</span>
+        <span class="box" id="box4">Box4</span>
+        <span class="box" id="box5">Box5</span>
+        </div> 
+    </div>
+
+    <div class = "sticky">
+        <h2 style="color: black;">Sticky Position</h2>
+        <p>Element will remain stick in the relative position means in the default layout and default flow, even when the user scrolls the page it will remains stick.<br>
+        Stick is same like absolute but it is Stick on the screen not scrollable but in the default flow.<br>
+        You must have to give the value of top:0px; even 0.
+        </p>
+        <div  style= "border: 2px solid; height: 100px;">
+        <span class="box" id="box1">Box1</span>
+        <span class="box" id="box2">Box2</span>
+        <span class="box" id="stick">Sticky</span>
+        <span class="box" id="box4">Box4</span>
+        <span class="box" id="box5">Box5</span>
+        <br>OHH Shitt!
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, totam excepturi sit corrupti aperiam culpa nulla architecto quo obcaecati. In temporibus cupiditate modi cumque impedit pariatur, quas aspernatur similique laudantium odio obcaecati soluta quidem enim quibusdam nam consectetur optio ullam. Dignissimos necessitatibus ipsa distinctio debitis aliquam cupiditate veniam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, totam excepturi sit corrupti aperiam culpa nulla architecto quo obcaecati. In temporibus cupiditate modi cumque impedit pariatur, quas aspernatur similique laudantium odio obcaecati soluta quidem enim quibusdam nam consectetur optio ullam. Dignissimos necessitatibus ipsa distinctio debitis aliquam cupiditate veniam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, totam excepturi sit corrupti aperiam culpa nulla architecto quo obcaecati. In temporibus cupiditate modi cumque impedit pariatur, quas aspernatur similique laudantium odio obcaecati soluta quidem enim quibusdam nam consectetur optio ullam. Dignissimos necessitatibus ipsa distinctio debitis aliquam cupiditate veniam.</p>
+
+    </div>

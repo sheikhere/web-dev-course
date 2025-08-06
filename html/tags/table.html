@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            table tag
+        </title>
+        <style>
+        table {
+            border-collapse: collapse;
+            width: 70%;
+            text-align:center;
+        }
+    th, td, tr, thead, tfoot, tbody {
+      border: 10px solid #ddd;
+      padding: 8px;
+      text-align: center;
+    }
+            
+            
+            
+        </style>
+    </head>
+<body>
+    <p>
+        thead, tbody, tfoot, tr, td, th.
+        <br>
+        (1) create table by table tag<br>
+        (2) count the number of rows<br>
+        (3) create tr by multiplication [if two rows tr*2]<br>
+        (4) create td by multiplication [if two colums tr*2]<br>
+        Also create by emmit method like we have 5 rows 3 columns(tr*5>td*3)<br>
+        (5) Fill data<br>
+        (6) rowspan and colspan (rowspan is for different rows while colspan is for different columns to merge)<br>
+        (7) delete empty data cells<br>
+
+
+    </p>
+
+    <!-- table Tag -->
+    <h1 style="text-align: center;">table Tag</h1>
+    <table style = "border: 0cap;" >
+        <tr><th>Subject</th><th>Marks</th></tr>
+        <tr><td>Math</td><td>95</td></tr>
+        <tr><td>english</td><td>80</td></tr>
+        <tr>
+            <td>
+                computer
+            </td>
+            <td>
+                60
+            </td>
+        </tr>
+    </table>
+   <hr>
+
+
+    <h1 style="text-align: center;">advance table in Html</h1>
+    <table style="border-collapse: collapse; width: 300;">
+        <!-- 1 -->
+         <caption>An advance Html table with merged cells </caption>
+        <tr>
+            <td rowspan="3">Day</td>
+            <td colspan="3">Seminar</td>
+        </tr>
+        <!-- 2 -->
+        <tr>
+
+            <td colspan="2">Shedule</td>
+            <td rowspan="2">Topic</td>
+        </tr>
+        <!-- 3 -->
+        <tr>
+            <td>start</td>
+            <td>end</td>
+        </tr>
+        <!-- 4 -->
+        <tr>
+            <td rowspan="2">Monday</td>
+            <td rowspan="2">08:00 AM</td>
+            <td rowspan="2">5:00 PM</td>
+            <td>Introduction</td>
+        </tr>
+        <!-- 5 -->
+        <tr>
+            <td>Uses</td>
+        </tr>
+        <!-- 6 -->
+        <tr>
+            <td rowspan="4">Tuesday</td>
+            <td>8:00 AM</td>
+            <td>11:00 AM</td>
+            <td>-</td>
+        </tr>
+        <!-- 7 -->
+        <tr>
+            <td>8:00 AM</td>
+            <td>02:00 PM</td>
+            <td>Learn</td>
+        </tr>
+        <!-- 8 -->
+        <tr>
+            <td>02:00 PM</td>
+            <td>08:00 PM</td>
+            <td rowspan="2">-</td>
+        </tr>
+        <!-- 9 -->
+        <tr>
+
+            <td>10:00 AM</td>
+            <td>01:00 PM</td>
+        </tr>
+        <!-- 10 -->
+        <tr>
+            <td>Wed-Fri</td>
+            <td colspan="2">Full day</td>
+            <td>Practical</td>
+        </tr>
+        <!-- 11 -->
+        <tr>
+            <td>Sat-Sun</td>
+            <td colspan="2">11:00 AM - 05:00 pm PM</td>
+            <td>Extra Class</td>
+        </tr>
+    </table>
+    <hr>
+
+    <h1 style="text-align: center;">New table</h1>
+    <table>
+        <caption>Ration</caption>
+        <thead>
+            <tr>
+                <th>Items</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Rice</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Oil</td>
+                <td>120</td>
+            </tr>
+            <tr>
+                <td>dal</td>
+                <td>70</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total</th>
+                <th>230</th>
+            </tr>
+        </tfoot>
+        
+    </table>
+
+
+</body>
+</html>

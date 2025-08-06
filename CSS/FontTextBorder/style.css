@@ -1,0 +1,57 @@
+
+
+h1{
+    /*                               Font                                                   */
+    color : rgb(234, 153, 66);
+    font-size : 50px;
+    font-family : 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight : 800;
+    /* font-style: normal;  if we want italic to make normal we use font-style : normal;*/
+
+    /*                               Text                                                          */
+    text-align: center;
+    text-decoration : underline dotted 2px red;  /*  overline & underline is parent of wavy dashed dotted property     */
+    text-transform : uppercase;
+    text-shadow: 4px 6px 10px black;       /* 4px(x axis)    6px(y axix)     10px(blurriness)   */
+}
+
+
+.wrapper{    
+    /*                               Border                                                          */
+    background-color: #df2cc7;
+    border: 3px solid;
+    /* border-radius: 20px; */
+    border-color: yellow;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-top-style: dotted;
+    border-bottom-style: dashed;
+    border-left-style: double;
+    border-right-style: ridge;
+    border-bottom-color:cadetblue
+
+}
+    
+
+
+
+
+
+
+
+
+#name:hover{
+    color: rgb(250, 2, 10);
+    background-color: #957f7f;
+    text-transform: capitalize;
+    text-decoration: underline yellowgreen;
+}
+
+.dummytext{
+    color: darkgreen;
+}
+.dummytext:hover{
+    color: palevioletred;
+    background-color: #0e0e0e;
+    text-transform: capitalize;
+}

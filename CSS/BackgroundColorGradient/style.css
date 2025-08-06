@@ -1,0 +1,63 @@
+
+
+
+
+h1{
+    color: pink;
+    text-align: center;
+    text-decoration: underline solid 1px;
+    text-transform: capitalize;
+    text-shadow: 2px 4px 6px b;
+
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style: oblique;
+
+
+
+}
+
+.wrapper{
+    border: 2px solid orange ;
+}
+#bcg{
+    height: 700px;
+    width:1020px;
+    background-image: url(https://images.pexels.com/photos/158028/bellingrath-gardens-alabama-landscape-scenic-158028.jpeg);
+    background-repeat: no-repeat;     /*    no-repeat means = image will not repeat, x axis means = image will repeat at x axis, y axis means = image will repeat at y axis                             */
+
+    background-size:cover ;     /*    auto means = same original size, cover means = covers all the space, contains means covers the specific space with specific measurment without affecting the image size and pixels         */
+
+
+}
+
+#normal{
+    color: pink;
+}
+#hexa{
+    color : #396b8efe;
+}
+#rgb{
+    color : rgba(110, 90, 20, 0.998)
+}
+#hsl{
+    color : hsla(110, 90%, 20%, 0.904)
+}
+#linear{
+    background :linear-gradient(120deg, yellow , orange, pink);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+#radial{
+    background :radial-gradient(50% 50%, yellow , orange, pink);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+#conic{
+    background :conic-gradient(yellow , orange, pink);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}

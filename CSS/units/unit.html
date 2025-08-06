@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Units</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div>
+        <h1 style="color: e2d498;">
+            Units
+        </h1>
+        <p>Units are of two types.</p>
+        <ol>
+            <li>Absolute</li>
+            <li>Relative</li>
+        </ol>
+            <div>
+                <h2><ol><li>Absolute</li></ol></h2>
+                <p>
+                    Absolute units in CSS are fixed measurements that do not change based on external factors such as the screen size, parent element, or browser settings.
+                </p>
+                <ul>
+                    <li>px</li>
+                    <li>in</li>
+                    <li>cm</li>
+                    <li>mm</li>
+                </ul>
+                <div>
+                    <h3><ul><li> px </li></ul></h3>
+                    <p>
+                        The px (pixel) unit in CSS is an absolute length unit, meaning it represents a fixed size regardless of the screen size or resolution.<br>
+                        It is used for fixed-size elements like Borders, Shadows, Icons and small images, Fixed layout elements.<br>
+                        border : 10px solid black;
+                    </p>
+                </div>
+
+                <div>
+                    <h3><ul start="5"><li> in cm mm </li></ul></h3>
+                    <p>
+                        The in cm mm  unit in CSS are an absolute length unit, primarily intended for output devices with a known physical size, such as print media.<br>
+                        While  <b> 1 in inch</b> in CSS is technically defined as <b>96px</b> pixels <br>
+                        While <b> 1 cm centimeter</b> in CSS is technically defined as 37.7px pixels <br>
+                        While <b> 1 mm milimeter</b> in CSS is technically defined as 3.7px pixels <br>                  
+                    </p>
+                </div><br>
+                <hr>
+
+
+
+            </div>
+
+            <div>
+                <h2><ol start="2"><li>relative</li></ol></h2>
+                <p>
+                    Relative units in CSS specify a length or size relative to another value, such as the parent element's size, the root element's font size, or the viewport dimensions.
+                </p>
+                <ul>
+                    <li> % </li>
+                    <li>vw</li>
+                    <li>vh</li>
+                    <li>em</li>
+                    <li>rem</li>
+                </ul>
+                <div>
+                    <h3><ol><li> % </li></ol></h3>
+                    <p>
+                        parent  > ---------- > cild
+                        The percentage unit (%) in CSS is used to define sizes or positions relative to a parent element or the viewport.<br>
+                        Its primary use cases include: responsive Layouts, flexible Sizing, positioning.<br>
+                        if we give height 40% and width 50% and it's parent height is 30px and width is 15px, it will take 40% height of 30px and 50% width of 15px
+                    </p>
+                </div>
+
+                <div>
+                <h3><ol start="2"><li> vw </li></ol></h3>
+                <p>
+                    The vw unit in CSS, which stands for "viewport width," represents 1% of the viewport's width because whole viewport is consist into 100 parts.<br>
+                    It is primarily used for creating responsive designs where elements scale dynamically based on the width of the user's screen or browser window.                  
+                </p>
+                </div>
+
+                <div>
+                <h3><ol start="3"><li> vh </li></ol></h3>
+                <p>
+                    The vh (viewport height) unit in CSS is a relative length unit representing 1% of the viewport's total height because whole viewport is consist into 100 parts.<br>
+                    It is commonly used for creating responsive designs where elements need to scale dynamically with the user's viewport height.                 
+                </p>
+                </div>       
+
+                <div>
+                <h3><ol start="4"><li> em </li></ol></h3>
+                <p>
+                The em unit in CSS is a relative length unit that is calculated based on the font-size of the element on which it is applied.<br> 
+                When used for properties other than font-size, it refers to the element's own font-size.<br>
+                When used for font-size, it refers to the font-size of its parent element.                 
+                </p>
+                </div>   
+
+                <div>
+                <h3><ol start="5"><li> rem </li></ol></h3>
+                <p>
+                The em unit in CSS is a relative length unit that is calculated based on the font-size of the element on which it is applied.<br> 
+                When used for properties other than font-size, it refers to the element's own font-size.<br>
+                When used for font-size, it refers to the font-size of its parent element.                 
+                </p>
+            </div>
+            <div class="parent">
+                <span class="child"></span>
+            </div>
+            <br><br><br><hr><br>
+            
+
+        </div>
+    </div>
+
+    
+</body>
+</html>

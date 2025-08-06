@@ -1,0 +1,84 @@
+h1{
+    color: pink;
+    text-align: center;
+    text-decoration: underline solid 1px;
+    text-transform: capitalize;
+    text-shadow: 2px 4px 6px b;
+
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style: oblique;
+
+}
+
+h2{
+    color: chocolate;
+}
+
+#modelbox{
+    color: blueviolet;
+}
+#padding{
+    color: rgb(69, 47, 19);
+}
+#margin{
+    color: darkolivegreen;
+}
+
+.container{
+    border: 10px solid;
+    border-radius: 10px;
+    border-color: cornflowerblue;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+/*                                           Padding                                                       */
+    /* padding: 40px; */
+
+    /* padding-top: 1000px ;
+    padding-left: 30px;
+    padding-right: 110px;
+    padding-bottom: 100px; */
+
+    /* padding: top right bottom left; clockwise */
+    /* padding: 10px 20px 10px 5px; */
+
+    /* padding top-bottom left-right
+    padding: 10px 20px; */
+
+    /* padding top left-right bottom */
+    /* padding: 4px 8px 9px; */
+
+
+
+
+    /*                                      Margin                                              */
+    /* margin-top: 20px; */
+    /* margin-left: 200px; */
+    /* margin: auto;                          /*aligns itself horizontally */
+    /* width: 1000px; */ 
+
+}
+
+
+
+
+
+span{
+
+        /*                                      Display                                            */
+
+    /* display: none ;  hide from display by reducing it's opacity */
+
+    /* display: block;  it will become block element and we can also add padding and other many things */
+
+    border: 2px solid black;
+    display: inline-block;
+       /* now it will make it both inline and block, by this property they will show both inline and block behavior */
+    /* margin: 0px; */
+    /* width: 150px; */
+    height: 150px;
+
+}

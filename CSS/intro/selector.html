@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selectors</title>
+    <link rel="stylesheet" href="./external.css">
+</head>
+<body>
+    <div class="wrapper">
+    <h1>
+        Selectors
+    </h1>
+    <h4>
+        A CSS selector selects the HTML element(s) you want to style.
+        <br>
+        Like we used div , span, h1, in the Html document and in the external CSS we can style all the div's 
+        by just choosing one div in the stylesheet i.e .css file
+        <br>
+    </h4>
+
+    <h4>Types of Selector</h4>
+    <ol id="unique">
+        <li>Tag Selector</li>
+        <li>Class Selector  </li>
+        <li>Id Selector </li>
+        <li>Pseudp Selector</li>
+    </ol>
+    </div>
+
+    <div class="wrapper">
+    <h3>
+        Tag Selector
+    </h3>
+    <p>
+        Tag selector is a simple selector that we used like div tags, h1 tags and a tags, p tags
+        <br><br>
+        in .css file we did h1{
+            color: blue;
+    text-align: right;
+    background-color: blue;
+        }<br><br>
+    This h1 is the Tag selector
+    </p>
+    </div>
+    <div class=" container">
+        <h3>Class Selector</h3>
+        <p>
+            This is a collective selector we use to style the html document, at multiple place where we want to do the styling
+            <br> simply we provide class to the html tag and the then use it in the .css file<br><br>
+            div class = "wrapper "> h1> this is the h1 tag /h1> /div> <br>
+            .wrapper{
+                color: pink;
+            background-color: rgb(0, 0, 0);
+            text-decoration: solid;
+            }<br>
+            This container is the class tag
+            same class can be used at multiple points for same styling<br>
+            And this styling is applied through class selector 
+
+        </p>
+    </div>    
+        <div class=" container">
+        <h3>Id Selector</h3>
+        <p>this styling is through class</p>
+        <p id="unique">
+            This is a unique selector we use to style the html document, at single place where we want to do the styling
+            <br> simply we provide id to the html tag and the then use it in the .css file<br><br>
+            div id = "unique "> h1> this is the h1 tag /h1> /div> <br>
+            #unique{
+                color: pink;
+                background-color: rgb(0, 0, 0);
+                text-decoration: solid;
+                }<br>
+            This unique is the id tag<br>
+            one id can be used at single point only because it is unique<br>
+            And this styling is applied through id selector
+
+        </p>
+    </div>   
+    <div class=" container">
+        
+        <h3>Pseudo Selector</h3>
+        <p>this styling is through class</p>
+        <p id="unique">
+            This is a unique selector we use to style the html document, at unique place where we want to do the styling
+            <br> simply we mention tag and it's child, if many then it's number in the list in the .css file<br><br>
+            ol> 
+                li>-----/li> <br>
+                li>-----/li> <br>
+                li>-----/li> <br>
+                li>-----/li> <br>
+            /ol>
+            <br><br>
+            ul li:nth-child(3){
+                color: pink;
+                background-color: rgb(0, 0, 0);
+                text-decoration: solid;
+            }<br><br>
+                This styling is applied through ID selector but unorder list list no 3 styling is applied through Pseudo selector
+        </p>
+        <ul>
+            <li>item-1</li>
+            <li>item-2</li>
+            <li>This styling is applied through pseudo selector</li>
+            <li>item-4</li>
+        </ul>
+    </div>   
+</body>
+</html>
